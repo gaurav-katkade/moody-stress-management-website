@@ -1,0 +1,5 @@
+![alt text](https://github.com/gaurav-katkade/moody-stress-management-website/blob/main/screenshots/Screenshot%202023-05-19%20130352.png)
+![alt text](https://github.com/gaurav-katkade/moody-stress-management-website/blob/main/screenshots/Screenshot%202023-05-21%20194044.png)
+![alt text](https://github.com/gaurav-katkade/moody-stress-management-website/blob/main/screenshots/Screenshot%202023-05-21%20194243.png)
+![alt text](https://github.com/gaurav-katkade/moody-stress-management-website/blob/main/screenshots/Screenshot%202023-05-21%20194324.png)
+![alt text](https://github.com/gaurav-katkade/moody-stress-management-website/blob/main/screenshots/Screenshot%202023-05-21%20194411.png)
