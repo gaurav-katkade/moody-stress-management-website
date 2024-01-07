@@ -1,0 +1,22 @@
+<%- include('header');-%>
+<body class="bg-dark">
+    <%-include('navbar')-%>
+    <form  method="post" action="/moodtest">
+        <div class="question">Question :<%=question%></div> 
+        <div class="checkbox-collection">
+        <div class="checkbox-button col-lg-2"><button type="submit" name="checkbox" value="0">Never</button></div>
+        <div class="checkbox-button col-lg-2"><button type="submit" name="checkbox" value="1">Almost Never</button></div>
+        <div class="checkbox-button col-lg-2"><button type="submit" name="checkbox" value="2">Sometimes</button></div>
+        <div class="checkbox-button col-lg-2"><button type="submit" name="checkbox" value="3">Fairly Often</button></div>
+        <div class="checkbox-button col-lg-2"><button type="submit" name="checkbox" value="4">Very Often</button></div>
+        </div>
+    </form>
+        <!-- <form>
+            ...
+            <button type="submit" name="action" value="update">Update</button>
+            <button type="submit" name="action" value="delete">Delete</button>
+        </form> -->
+    <script src="/Moody/index.js"></script>
+</body>
+<%- include('footer');-%>
+</html>

@@ -1,0 +1,22 @@
+<%-include('header');-%>
+<body class="pattern   font-text">
+    <%-include('navbar');-%>
+    <h1 class="logo" style="text-align: center;">Our Community </h1>
+    
+    <% Article.forEach((item)=>{ %>
+    <div class="main-div">
+        <h5 class="author">Author : <%=item.author %></h5>
+        <p class="content-para"><%= item.content %></p>
+    </div>
+    <% }); %>
+    
+    <form id="articleForm" action="/article" method="post"><div class="form-div">
+        <input class="bg-dark" style="color: aliceblue;" type="text" name="Author" placeholder="Your name">
+        <textarea  class="bg-dark" name="article" id="" cols="100" rows="1" form="articleForm" style="color: aliceblue;">Enter the text here</textarea>
+        <button class="send-button" type="submit"><i class="fa-solid fa-share"></i></button></div>
+    </form>
+    
+    <script src="/Moody/index.js"></script>
+</body>
+<%-include('footer');-%>
+</html>

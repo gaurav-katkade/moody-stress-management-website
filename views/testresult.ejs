@@ -1,0 +1,18 @@
+<%- include('header');-%>
+<body class="bg-dark">
+    <%-include('navbar')-%>
+    <form  method="post" action="/moodtest">
+        <div class="question">Thank You !!! For submiting the stess test </div> 
+
+        <div class="question">Your Score is <%=score%></div>
+        <!-- <button name="never">never</button>
+        <button name="Almost-Never">Almost Never</button>
+        <button  name="Sometimes">Sometimes</button>
+        <button name="Fairly-Often">Fairly Often</button>
+        <button  name="Very-Often">Very Often</button> -->
+       <div class="test-result-btn"><a class="send-button" href="/moodtest">Restart the test</a></div> 
+    </form>
+    <script src="/Moody/index.js"></script>
+</body>
+<%- include('footer');-%>
+</html>
